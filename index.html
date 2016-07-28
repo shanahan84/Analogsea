@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8" name="AnalogSea Form" content="AnalogSea Form Assignment">
+	<title>AnalogSea Form</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	
+</head>
+
+<body>
+
+	<!-- AnalogSea Logo -->
+	<img src="logo.png" alt="AnalogSea Logo" class="logo">
+	
+	<!-- Sign Up Form -->
+	<form class="form" action="/signup" method="post">
+		
+		<legend>Sign Up</legend>
+			
+			<label for="email">Email</label>
+				<input placeholder="foo@bar.com" type="email" name="email" id="email" required>
+				
+			<label for="password">Password</label>
+				<input placeholder="1234passw0rd" type="password" name="password" id="pword" required>
+				
+		<button type="submit">Sign Up</button>	
+			
+			<p>
+				<a href="/forgot-password/new">Forgot Password?</a>
+			</p>
+			
+	</form>
+	
+		<div class="footer">
+			<p>Already have an account?
+				<a href="/login">Log in</a>
+			</p>
+		</div>
+
+</body>
+</html>
